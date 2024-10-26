@@ -5,6 +5,7 @@ Here are my C++ notes
 # Note for myself:
 
 Use this link to remember how to run C++ code: [click here](https://code.visualstudio.com/docs/cpp/config-mingw#_run-helloworldcpp)
+
 Video from Bro Code to learn C++: [click here](https://www.youtube.com/watch?v=-TkoO8Z07hI&t=654s)
 
 ## Content:
