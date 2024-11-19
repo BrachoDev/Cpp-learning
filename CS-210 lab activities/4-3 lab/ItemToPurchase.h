@@ -4,7 +4,7 @@
 #include <string>
 using namespace std;
 
-// Creating ItemToPurchase class
+// Creating ItemToPurchase Class (Object)
 class ItemToPurchase {
     public:
     
