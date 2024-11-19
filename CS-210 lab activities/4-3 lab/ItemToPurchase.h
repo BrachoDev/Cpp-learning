@@ -16,13 +16,16 @@ class ItemToPurchase {
         void setPrice(int price);
         void setQuantity(int quantity);
 
-
-    private:
         // Getters
         string getName() const;
         int getPrice() const;
         int getQuantity() const;
 
+
+    private:
+        string itemName;
+        int itemPrice;
+        int itemQuantity;
 };
 
 #endif
