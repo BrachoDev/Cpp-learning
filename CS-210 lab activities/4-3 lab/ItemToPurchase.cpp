@@ -5,33 +5,42 @@ using namespace std;
 
 // Constructor
 ItemToPurchase::ItemToPurchase() {
+    // Initializing variables
     itemName = "none";
     itemPrice = 0;
     itemQuantity = 0;
 }
 
 // Setters
-void ItemToPurchase::setName(string name) {
-    itemName = name;
+
+// setName function
+void ItemToPurchase::SetName(string name) {
+    itemName = name; 
 }
 
-void ItemToPurchase::setPrice(int price) {
+// setPrice function
+void ItemToPurchase::SetPrice(int price) {
     itemPrice = price;
 }
 
-void ItemToPurchase::setQuantity(int quantity) {
+// setQuantity function
+void ItemToPurchase::SetQuantity(int quantity) {
     itemQuantity = quantity;
 }
 
 // Getters
-string ItemToPurchase::getName() const {
+
+// getName function
+string ItemToPurchase::GetName() const {
     return itemName;
 }
 
-int ItemToPurchase::getPrice() const {
+// getPrice function
+int ItemToPurchase::GetPrice() const {
     return itemPrice;
 }
 
-int ItemToPurchase::getQuantity() const{
+// getQuantity function
+int ItemToPurchase::GetQuantity() const{
     return itemQuantity;
 }

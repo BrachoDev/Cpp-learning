@@ -11,20 +11,27 @@ class ItemToPurchase {
         // Constructor
         ItemToPurchase();
 
-        // Setters
-        void setName(string name);
-        void setPrice(int price);
-        void setQuantity(int quantity);
+        // Setters (Mutators)
+        void SetName(string name);
+        void SetPrice(int price);
+        void SetQuantity(int quantity);
 
-        // Getters
-        string getName() const;
-        int getPrice() const;
-        int getQuantity() const;
+        // Getters (Accessors)
+        string GetName() const;
+        int GetPrice() const;
+        int GetQuantity() const;
 
 
     private:
+        // Private members
+
+        // Name of item
         string itemName;
+
+        // Price of the item 
         int itemPrice;
+
+        // Quantity of item
         int itemQuantity;
 };
 
